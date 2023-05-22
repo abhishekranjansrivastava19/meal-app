@@ -1,0 +1,89 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .meal {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .meal img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .meal h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .fav-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .favorites {
+    margin-top: 20px;
+  }
+  
+  .favorite {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .favorite img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .favorite h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .remove-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
